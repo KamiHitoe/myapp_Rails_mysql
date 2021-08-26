@@ -4,6 +4,7 @@
 
 
 ## 利用技術一覧
+- 言語: Ruby 2.6.8
 - Webフレームワーク: Ruby on Rails 6.1.4.1
 - ORM: Active Record
 - DB: mysql
@@ -25,7 +26,8 @@ rails db:seed
     db/seed.rbから初期データをinsert
 rails g controller "Page"
     controllers/, views/に生成
-
+rails db
+    dockerでruntimeとdbを分けている場合は使用不能
 
 
 
