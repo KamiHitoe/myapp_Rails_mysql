@@ -32,6 +32,11 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
+h3 {
+    font-size: 14px;
+    padding-top: 25px;
+}
+
 /* ulから見た1番目のli */
 ul > li　{
     margin-bottom: 5px;
