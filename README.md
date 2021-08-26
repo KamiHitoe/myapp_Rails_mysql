@@ -8,7 +8,7 @@
 - Webフレームワーク: Ruby on Rails 6.1.4.1
 - ORM: Active Record
 - DB: mysql
-
+- Other: docker
 
 ## 機能一覧
 
