@@ -38,6 +38,37 @@ rails db
 
 
 ## Railsについて
-/app
-/config
+- /app
+    - assets/  
+        - js, css, imgを格納
+    - controllers/
+        - MVCのControllerでactionを記述
+        - rails g controller "Models"で生成
+    - helpers
+        - helperを作成可能
+    - models
+        - tableのvalidate等ができる
+        - rails g model "Model" "columns"で生成
+    - views
+        - 各種html.erbを作成
+- /bin
+    - 各種コマンド系ファイル
+- /config
+    - routes.rb
+        - routingを司る
+        - rails routesでデフォルトのactionとpathが設定されている
+- /db
+    - schema.rb
+        - tableの設定を記載
+    - seed.rb
+        - Modelのクラスに対して、ORMで初期データを格納
+- /public
+    - Web公開用の設定
+- Gemfile
+    - 依存gemをまとめたファイル。bundle installできる
+- Gemfile.lock
+    - pip freezeで作成されたrequirements.txt的な
+- package.json
+    - npmライブラリ
+
 
