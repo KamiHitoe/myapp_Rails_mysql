@@ -37,3 +37,4 @@ yarn-debug.log*
 
 # custom
 .env
+docker-compose.yml

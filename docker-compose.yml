@@ -6,6 +6,9 @@ services:
     # 環境変数
     environment:
       MYSQL_ROOT_PASSWORD: password
+      MYSQL_USERNAME: root
+      MYSQL_HOST: db
+      MYSQL_PASSWORD: password
     # port解放
     expose:
       - 3307
